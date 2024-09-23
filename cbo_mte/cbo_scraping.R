@@ -47,7 +47,9 @@ for (i in 1:nrow(cbo_familia)) {
 
 data <- do.call(rbind, rows)
   
+  
+saveRDS(data, "cbo_mte/cbo description.rds")
 
-saveRDS(data, "cbo description.rds")
+
 
 
